@@ -1,10 +1,20 @@
-#Basic UseState Hooks in React
-##Syntax:
-const [count,setCount]=useState(0)
-=>count=current state,
-=>update state=setCount,
-=>0 =current state value
-###syntax:
-```const [count,setCount]=useState(0)```
-#import 
-```import {useState} from "react"```
+# Student Attendance System
+
+This is a full-stack web application for managing student attendance.
+
+## 🚀 Features
+- Student login
+- Attendance tracking
+- Admin dashboard
+
+## 🛠 Tech Stack
+- React
+- Node.js
+- Express
+- MongoDB
+
+## 📦 Installation
+```bash
+git clone https://github.com/username/repo.git
+npm install
+npm run dev
