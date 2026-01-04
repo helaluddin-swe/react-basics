@@ -19,9 +19,11 @@ git clone https://github.com/username/repo.git
 npm install
 npm run dev
 
-
+---
 
 ## 🔗 GitHub Repository
-```md
+
+Live link:
 [Click here to view the source code](https://github.com/helaluddin-swe/react-basics)
+
 
