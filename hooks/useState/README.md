@@ -1,6 +1,5 @@
 
 
-````markdown
 # Student Attendance System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
