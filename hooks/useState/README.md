@@ -1,13 +1,15 @@
 
 
 ````markdown
-#Resource
-
+# Student Attendance System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
 ![GitHub contributors](https://img.shields.io/github/contributors/helaluddin-swe/react-basics)
 ![GitHub stars](https://img.shields.io/github/stars/helaluddin-swe/react-basics?style=social)
 ![GitHub license](https://img.shields.io/github/license/helaluddin-swe/react-basics)
+
+**1.useState
+*[**useState**](https://www.freecodecamp.org/learn/front-end-development-libraries-v9/lecture-working-with-state-and-responding-to-events-in-react/what-is-state-and-how-does-the-usestate-hook-work)**
 
 A **full-stack web application** for managing student attendance efficiently.  
 It allows students to mark attendance, and admins to manage and track attendance records in real-time.
@@ -179,11 +181,3 @@ This project is licensed under the **MIT License**.
 
 ```
 
----
-
-This is a **complete markdown version** ready for GitHub.  
-
-If you want, I can also **add visual badges for React version, Node.js version, MongoDB, npm, and GitHub stars** so your README looks like a **professional open-source project**.  
-
-Do you want me to add those badges?
-```
