@@ -2,8 +2,7 @@
 
 ````markdown
 #Resource
-##1.useState
-[useState](https://www.freecodecamp.org/learn/front-end-development-libraries-v9/lecture-working-with-state-and-responding-to-events-in-react/what-is-state-and-how-does-the-usestate-hook-work)
+
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
 ![GitHub contributors](https://img.shields.io/github/contributors/helaluddin-swe/react-basics)
