@@ -18,3 +18,4 @@ This is a full-stack web application for managing student attendance.
 git clone https://github.com/username/repo.git
 npm install
 npm run dev
+[GitHub Repo](https://github.com/helaluddin-swe/react-basics)
