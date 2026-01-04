@@ -1,6 +1,5 @@
 Absolutely! Here's a **full markdown version** of your **Student Attendance System README**, fully formatted, ready to copy-paste to GitHub. I’ve included badges, proper sections, code blocks, hooks explanation, folder structure, API endpoints, and links.
 
-````markdown
 # Student Attendance System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
