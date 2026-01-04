@@ -1,29 +1,25 @@
-# Student Attendance System
+## ⚛️ React Hooks Usage
 
-This is a full-stack web application for managing student attendance.
+This project uses **React Hooks** for state management and functional components.  
 
-## 🚀 Features
-- Student login
-- Attendance tracking
-- Admin dashboard
+### Example: `useState`
+```javascript
+import React, { useState } from 'react';
 
-## 🛠 Tech Stack
-- React
-- Node.js
-- Express
-- MongoDB
+function AttendanceCounter() {
+  // useState hook to manage attendance count
+  const [count, setCount] = useState(0);
 
-## 📦 Installation
-```bash
-git clone https://github.com/username/repo.git
-npm install
-npm run dev```
+  const markAttendance = () => {
+    setCount(count + 1);
+  };
 
----
+  return (
+    <div>
+      <h2>Attendance Count: {count}</h2>
+      <button onClick={markAttendance}>Mark Attendance</button>
+    </div>
+  );
+}
 
-## 🔗 GitHub Repository
-
-Live link:
-**[Click here to view the source code](https://github.com/helaluddin-swe/react-basics)**
-
-
+export default AttendanceCounter;
