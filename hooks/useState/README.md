@@ -17,7 +17,7 @@ This is a full-stack web application for managing student attendance.
 ```bash
 git clone https://github.com/username/repo.git
 npm install
-npm run dev
+npm run dev```
 
 
 ##githhub repo here
