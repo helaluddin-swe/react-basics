@@ -1,4 +1,6 @@
-Absolutely! Here's a **full markdown version** of your **Student Attendance System README**, fully formatted, ready to copy-paste to GitHub. I’ve included badges, proper sections, code blocks, hooks explanation, folder structure, API endpoints, and links.
+#Resource
+##1.useState
+[useState](https://www.freecodecamp.org/learn/front-end-development-libraries-v9/lecture-working-with-state-and-responding-to-events-in-react/what-is-state-and-how-does-the-usestate-hook-work)
 
 ````markdown
 # Student Attendance System
