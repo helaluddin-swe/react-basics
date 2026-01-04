@@ -1,14 +1,9 @@
-
-
-````markdown
 # Student Attendance System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
 ![GitHub contributors](https://img.shields.io/github/contributors/helaluddin-swe/react-basics)
 ![GitHub stars](https://img.shields.io/github/stars/helaluddin-swe/react-basics?style=social)
 ![GitHub license](https://img.shields.io/github/license/helaluddin-swe/react-basics)
-
-
 
 A **full-stack web application** for managing student attendance efficiently.  
 It allows students to mark attendance, and admins to manage and track attendance records in real-time.
@@ -58,21 +53,20 @@ function AttendanceCounter() {
 }
 
 export default AttendanceCounter;
-````
+Explanation
+useState allows functional components to maintain state.
 
-### Explanation
+count stores the current attendance count.
 
-* `useState` allows **functional components** to maintain state.
-* `count` stores the current attendance count.
-* `setCount` updates the count when a student marks attendance.
-* Using Hooks makes the code **cleaner and easier to maintain** than class components.
-* Other hooks like `useEffect` are used for **fetching data and updating the UI dynamically**.
+setCount updates the count when a student marks attendance.
 
----
+Using Hooks makes the code cleaner and easier to maintain than class components.
 
-## 📂 Folder Structure
+Other hooks like useEffect are used for fetching data and updating the UI dynamically.
 
-```
+📂 Folder Structure
+perl
+Copy code
 student-attendance-system/
 ├─ backend/
 │  ├─ models/           # Mongoose models
@@ -88,33 +82,28 @@ student-attendance-system/
 │  │  └─ App.js
 ├─ package.json
 └─ README.md
-```
+🔗 API Endpoints
+Auth
+POST /api/auth/login → Login student/admin
 
----
+POST /api/auth/register → Register student/admin
 
-## 🔗 API Endpoints
+Attendance
+GET /api/attendance → Get all attendance records
 
-### Auth
+POST /api/attendance → Mark attendance
 
-* `POST /api/auth/login` → Login student/admin
-* `POST /api/auth/register` → Register student/admin
+PUT /api/attendance/:id → Update attendance
 
-### Attendance
+DELETE /api/attendance/:id → Delete attendance record
 
-* `GET /api/attendance` → Get all attendance records
-* `POST /api/attendance` → Mark attendance
-* `PUT /api/attendance/:id` → Update attendance
-* `DELETE /api/attendance/:id` → Delete attendance record
+Note: Protected routes require JWT token authentication.
 
-> **Note:** Protected routes require JWT token authentication.
-
----
-
-## 📦 Installation
-
+📦 Installation
 Follow these steps to set up the project locally:
 
-```bash
+bash
+Copy code
 # Clone the repository
 git clone https://github.com/helaluddin-swe/react-basics.git
 
@@ -134,49 +123,42 @@ npm install
 
 # Start frontend server
 npm start
-```
+⚡ Usage
+Students can log in and mark attendance.
 
----
+Admins can view, edit, and delete attendance records.
 
-## ⚡ Usage
+Dashboard provides summary reports of attendance.
 
-* Students can **log in** and **mark attendance**.
-* Admins can **view, edit, and delete** attendance records.
-* Dashboard provides **summary reports** of attendance.
-
----
-
-## 📝 Contribution
-
+📝 Contribution
 Contributions are welcome!
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-name`
-3. Make changes and commit: `git commit -m "Add feature"`
-4. Push to the branch: `git push origin feature-name`
-5. Create a Pull Request
+Fork the repository
 
----
+Create a new branch: git checkout -b feature-name
 
-## 🔗 Links
+Make changes and commit: git commit -m "Add feature"
 
-* **GitHub Repository:** [Click here to view the source code](https://github.com/helaluddin-swe/react-basics)
-* **Live Demo:** [Click here to view the live project](#) <!-- Replace # with your live link -->
+Push to the branch: git push origin feature-name
 
----
+Create a Pull Request
 
-## 📜 License
+🔗 Links
+GitHub Repository: Click here to view the source code
 
-This project is licensed under the **MIT License**.
+Live Demo: Click here to view the live project <!-- Replace # with your live link -->
 
----
+📜 License
+This project is licensed under the MIT License.
 
-## 🎯 Future Improvements
+🎯 Future Improvements
+Add email notifications for attendance alerts.
 
-* Add **email notifications** for attendance alerts.
-* Add **role-based access control**.
-* Add **export/import attendance records** (CSV, PDF).
-* Implement **analytics dashboard** with charts and stats.
+Add role-based access control.
 
-```
+Add export/import attendance records (CSV, PDF).
 
+Implement analytics dashboard with charts and stats.
+
+pgsql
+Copy code
