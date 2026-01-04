@@ -22,5 +22,6 @@ npm run dev
 
 
 ## 🔗 GitHub Repository
+```md
 [Click here to view the source code](https://github.com/helaluddin-swe/react-basics)
 
