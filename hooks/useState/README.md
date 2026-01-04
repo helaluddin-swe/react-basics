@@ -1,3 +1,6 @@
+
+
+````markdown
 # Student Attendance System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/helaluddin-swe/react-basics)
@@ -53,20 +56,21 @@ function AttendanceCounter() {
 }
 
 export default AttendanceCounter;
-Explanation
-useState allows functional components to maintain state.
+````
 
-count stores the current attendance count.
+### Explanation
 
-setCount updates the count when a student marks attendance.
+* `useState` allows **functional components** to maintain state.
+* `count` stores the current attendance count.
+* `setCount` updates the count when a student marks attendance.
+* Using Hooks makes the code **cleaner and easier to maintain** than class components.
+* Other hooks like `useEffect` are used for **fetching data and updating the UI dynamically**.
 
-Using Hooks makes the code cleaner and easier to maintain than class components.
+---
 
-Other hooks like useEffect are used for fetching data and updating the UI dynamically.
+## 📂 Folder Structure
 
-📂 Folder Structure
-perl
-Copy code
+```
 student-attendance-system/
 ├─ backend/
 │  ├─ models/           # Mongoose models
@@ -82,28 +86,33 @@ student-attendance-system/
 │  │  └─ App.js
 ├─ package.json
 └─ README.md
-🔗 API Endpoints
-Auth
-POST /api/auth/login → Login student/admin
+```
 
-POST /api/auth/register → Register student/admin
+---
 
-Attendance
-GET /api/attendance → Get all attendance records
+## 🔗 API Endpoints
 
-POST /api/attendance → Mark attendance
+### Auth
 
-PUT /api/attendance/:id → Update attendance
+* `POST /api/auth/login` → Login student/admin
+* `POST /api/auth/register` → Register student/admin
 
-DELETE /api/attendance/:id → Delete attendance record
+### Attendance
 
-Note: Protected routes require JWT token authentication.
+* `GET /api/attendance` → Get all attendance records
+* `POST /api/attendance` → Mark attendance
+* `PUT /api/attendance/:id` → Update attendance
+* `DELETE /api/attendance/:id` → Delete attendance record
 
-📦 Installation
+> **Note:** Protected routes require JWT token authentication.
+
+---
+
+## 📦 Installation
+
 Follow these steps to set up the project locally:
 
-bash
-Copy code
+```bash
 # Clone the repository
 git clone https://github.com/helaluddin-swe/react-basics.git
 
@@ -123,42 +132,48 @@ npm install
 
 # Start frontend server
 npm start
-⚡ Usage
-Students can log in and mark attendance.
+```
 
-Admins can view, edit, and delete attendance records.
+---
 
-Dashboard provides summary reports of attendance.
+## ⚡ Usage
 
-📝 Contribution
+* Students can **log in** and **mark attendance**.
+* Admins can **view, edit, and delete** attendance records.
+* Dashboard provides **summary reports** of attendance.
+
+---
+
+## 📝 Contribution
+
 Contributions are welcome!
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Make changes and commit: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Create a Pull Request
 
-Create a new branch: git checkout -b feature-name
+---
 
-Make changes and commit: git commit -m "Add feature"
+## 🔗 Links
 
-Push to the branch: git push origin feature-name
+* **GitHub Repository:** [Click here to view the source code](https://github.com/helaluddin-swe/react-basics)
+* **Live Demo:** [Click here to view the live project](#) <!-- Replace # with your live link -->
 
-Create a Pull Request
+---
 
-🔗 Links
-GitHub Repository: Click here to view the source code
+## 📜 License
 
-Live Demo: Click here to view the live project <!-- Replace # with your live link -->
+This project is licensed under the **MIT License**.
 
-📜 License
-This project is licensed under the MIT License.
+---
 
-🎯 Future Improvements
-Add email notifications for attendance alerts.
+## 🎯 Future Improvements
 
-Add role-based access control.
+* Add **email notifications** for attendance alerts.
+* Add **role-based access control**.
+* Add **export/import attendance records** (CSV, PDF).
+* Implement **analytics dashboard** with charts and stats.
 
-Add export/import attendance records (CSV, PDF).
 
-Implement analytics dashboard with charts and stats.
-
-pgsql
-Copy code
